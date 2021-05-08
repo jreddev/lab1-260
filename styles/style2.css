@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  .page {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .menu {
+    height: 70px;
+    /*background-color: white;
+    box-shadow: 0 2px 0 rgba(93, 96, 99, 10%);*/
+    padding: 10px 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Rage", "Brush Script M7", cursive;
+    /*display: flex;
+    justify-content: space-between;*/
+  }
+  .sidebar {
+    height: 500px;
+    width: 25%;
+    float: left;
+    background-color: #d2d2d2;
+    overflow: hidden;
+  }
+  .content {
+    height: 500px;
+    width: 75%;
+    float: right;
+    background-color: #5DABD9;
+  }
+  /*.footer {
+    padding: 10px 10px;
+    text-align: center;
+    box-shadow: 5px 2px 2px rgba(93, 96, 99, 10%);
+    height: 30px;
+    background-color: white;
+    clear:both;
+    font-family: cursive;
+
+  }*/
+  .social-media {
+    width: 200px;
+    display: flex;
+    padding: 10px;
+
+    justify-content: space-around;
+    float: left;
+  }
+  .social-media:hover {
+    color: #5DABD9;
+    background-color: #5DABD9;
+  }
+  .menu-title {
+    margin-left: 32.5%;
+    width: 500px;
+    display: flex;
+    float: center;
+  }
+  .linkbar {
+    font-size: 13.5px;
+    font-family: sans-serif;
+    margin-left: 22%;
+    padding: 5px 5px;
+    overflow: hidden;
+  }
+  .linkbutton {
+    width: 17.5%;
+    float: left;
+    text-align: center;
+    /*box-shadow: 0px 2px 0px rgba(93, 96, 99, 10%);*/
+  }
+  .linkbutton:hover  {
+    color: #5DABD9;
+  }
+  a:hover  {
+    color: #5DABD9;
+  }
+
+  a {
+     padding: 8px;
+     display: block;
+     font-style: normal;
+     color: black;
+     /*background-color: white;*/
+     text-decoration: none;
+
+  }
+  .signlog-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .login {
+    margin-left: 50px;
+  }
+  .signup {
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-title:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .nice-text {
+    font-family: "Rage", cursive;
+    font-size: 55px;
+  }
+  .based-text {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+ .image-me {
+   padding: 35px;
+   /*image-shadow: 0px 2px 0px rgba(93, 96, 99, 10%);*/
+ }

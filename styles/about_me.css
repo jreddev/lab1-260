@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-title {
+  font-family: "Rage", cursive;
+}
+h2 {
+  padding: 10px;
+  padding-bottom: 0;
+  font-family: "Rage", cursive;
+  font-size: 45px;
+  color: black;
+}
+.about_me_body {
+  display: flex;
+  text-align: center;
+}
+.photo {
+  float: left;
+  margin-left: 30px;
+}
+p {
+  padding: 10px;
+  float: right;
+}
+.about_me_head {
+  text-align: center;
+}

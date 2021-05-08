@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-title {
+  font-family: "Rage", cursive;
+}
+h2 {
+  padding: 10px;
+  padding-bottom: 0;
+  font-family: "Rage", cursive;
+  font-size: 45px;
+  color: black;
+}
+p {
+  padding: 10px;
+  padding-top: 0;
+}

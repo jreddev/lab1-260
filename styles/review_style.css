@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-title {
+  font-family: "Rage", cursive;
+}
+h2 {
+  padding: 10px;
+  padding-bottom: 0;
+  font-family: "Rage", cursive;
+  font-size: 45px;
+  color: black;
+}
+p {
+  padding-left: 40px;
+  padding-bottom: 0;
+}
+.body-title {
+  text-align: center;
+}
+.review-body {
+  display: flex;
+  background-color: #f8f9fa;
+}
+h4 {
+  color: #777777;
+  padding: 0px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+.stars {
+  margin: 0;
+  border: 0;
+  padding-top: 0;
+  padding-left: 50px;
+  padding-bottom: 5px;
+  background-color: #f8f9fa;
+}
